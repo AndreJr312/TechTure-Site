@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&family=Share+Tech+Mono&display=swap');
 
 * {
-    font-family: poppins;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
     text-decoration: none;
     padding: 0;
@@ -15,14 +15,13 @@
 }
 
 body {
-    background-color: #001524;
+    background-color: #1e2b32;
 }
 
 .titulo{
     font-size: 40px;
     margin: 40px;
-    color: #EF8354;
-    border-bottom: 2px solid #EF8354;
+    color: #73A4BF;
 }
 
 /*=======================cabeçalho=======================*/
@@ -37,7 +36,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #001524;
+    background-color: #1e2b32;
     font-size: 20px;
     z-index: 1;
 }
@@ -61,7 +60,7 @@ header p {
 
 #menu-web a:hover{
     color: #FFECD1;
-    background-color: #EF8354;
+    background-color: #73A4BF;
     transition: .3s;
 }
 
@@ -71,55 +70,56 @@ header p {
 
 /*=========================seção inicial========================*/
 
+#inicio_section{
+    height: 700px;
+    background-image: url("/components/images/fundo.png");
+    background-size: cover;
+    padding-top: 200px;
+}
+
 #inicio_divCentral{
     display: flex;
     width: 70%;
-    margin: 15% auto;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+}
+
+#inicio_section div p{
+    font-size: 30px;
+    color: #FFECD1;
+    margin-bottom: 25px;
 }
 
 #inicio_section div h1 {
-    font-size: 50px;
+    font-size: 100px;
     color: #FFECD1;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-weight: 500;
 }
 
 #inicio_section a {
     font-size: 20px;
-    background-color: #FF7D00;
-    color: #FFECD1;
+    background-color: #1E2B32;
+    color: #73A4BF;
     padding: 8px;
     border: 2px solid #FFECD1;
     transition: .2s;
-    border-radius: 10px;
-    box-shadow: -5px 5px 1px #FFECD1, -6px 7px 5px black;
-}
-
-#inicio_section a:hover {
-    background-color: #FFECD1;
-    border: 2px solid #FFECD1;
-    transition: .4s;
-    color: #001524;
-    box-shadow: 6px -6px 1px black;
+    border-radius: 5px;
 }
 
 #inicio_section strong {
-    color: #FF7D00;
-
+    color: #73A4BF;
 }
 
 #inicio_section img {
     width: 300px;
     height: 300px;
-    border: 5px solid #FFECD1;
     border-radius: 50%;
-
 }
 
-/*=========================seção sobre mim======================*/
+/*=========================seção sobre nós======================*/
 
 #sobremim_section {
     display: flex;
@@ -141,7 +141,7 @@ header p {
 }
 
 #sobremim_section strong {
-    color: #EF8354;
+    color: #73A4BF;
 }
 
 #sobremim_section div{
@@ -178,21 +178,15 @@ header p {
 /* div dos projetos*/
 
 .projetos_feitos {
-    background-color: #15616D;
-    width: 300px;
+    background-color: #4D6E80;
+    width: 425px;
     height: 400px;
     padding: 30px;
     margin: 30px;
-    border-radius: 20px;
-    border: 3px solid #FFECD1;
+    border: 3px solid #73A4BF;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.projetos_feitos:hover{
-    box-shadow: -5px 5px 1px #FFECD1, -6px 7px 5px black;
-    transition: .2s;
 }
 
 .projetos_feitos img{
@@ -203,7 +197,7 @@ header p {
 
 .projetos_feitos h3{
     font-size: 25px;
-    color: #001524;
+    color: #1e2b32;
     padding-bottom: 10px; 
 }
 
@@ -211,7 +205,7 @@ header p {
 
     font-size: 20px;
     margin-top: 25px;
-    background-color: #001524;
+    background-color: #1e2b32;
     color: #FFECD1;
     padding: 8px;
     border-radius: 10px;    
@@ -251,11 +245,40 @@ header p {
 
 }
 
+
+/*================login============================*/
+
+#login_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 3px solid #FFECD1;
+    color: #FFECD1;
+    padding-top: 60px;
+
+    height: 700px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 /*===================== footer ===================*/
 
 footer{
     background-color: #FFECD1;
-    color: #001524;
+    color: #1e2b32;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -265,7 +288,7 @@ footer{
 }
 
 footer a{
-    color: #001524;
+    color: #1e2b32;
 }
 
 footer h3{

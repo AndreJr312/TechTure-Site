@@ -13,8 +13,8 @@
     .titulo {
         font-size: 30px;
         margin: 40px;
-        color: #FF7D00;
-        border-bottom: 2px solid #FF7D00;
+        color: #73A4BF;
+        border-bottom: 2px solid #73A4BF;
     }
 
 
@@ -27,7 +27,7 @@
         border: none;
         color: #FFECD1;
         font-size: 20px;
-        background-color: #001524;
+        background-color: #1e2b32;
         cursor: pointer;
         gap: 15px;
     }
@@ -68,7 +68,7 @@
         width: 100%;
         top: 60px;
         right: 0px;
-        background-color: #001524;
+        background-color: #1e2b32;
         z-index: 1000;
         height: 0px;
         transition: .6s;
@@ -85,7 +85,7 @@
 
    
     #menu-web li:hover{
-        background-color: #001524;
+        background-color: #1e2b32;
         filter: brightness(1.5);
         
     }
@@ -99,6 +99,9 @@
 
     /*=========================seção inicial========================*/
 
+    #inicio_section{
+        padding-top: 100px;
+    }
 
     #inicio_divCentral {
         display: flex;
@@ -107,13 +110,19 @@
         align-items: center;
         text-align: center;
         gap: 50px;
-        margin-top: 100px;
-        margin-bottom: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
 
     #inicio_section div h1 {
-        font-size: 30px;
+        font-size: 70px;
         margin-bottom: 50px;
+    }
+
+    #inicio_section img {
+        width: 190px;
+        height: 190px;
+        border-radius: 50%;
     }
 
 
